@@ -155,7 +155,7 @@ const AboutPage = () => {
                 <span>Kirim atau antarkan pohon langsung ke posko kami.</span>
               </li>
               <li className="flex items-start space-x-2">
-                <span className="text-accent-400 font-bold">💰</span>
+                <span className="text-accent-400 font-bold"></span>
                 <span>Transfer donasi untuk mendukung program penanaman & perawatan.</span>
               </li>
               <li className="flex items-start space-x-2">

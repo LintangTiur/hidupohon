@@ -144,7 +144,7 @@ const DonationPage = () => {
               {donationType === 'pohon' && (
                 <div className="bg-cream rounded-lg p-4">
                   <p className="text-sm text-charcoal">
-                    💡 Setiap <strong>Rp 25.000</strong> = 1 pohon yang ditanam
+                     Setiap <strong>Rp 25.000</strong> = 1 pohon yang ditanam
                   </p>
                   <p className="text-sm text-primary-500 font-bold mt-1">
                      Anda akan menanam: {Math.floor((selectedAmount || parseInt(customAmount) || 0) / 25000)} pohon

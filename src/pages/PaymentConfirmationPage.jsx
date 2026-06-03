@@ -58,7 +58,7 @@ const PaymentConfirmationPage = () => {
           </p>
           <p className="text-sm text-gray-500 mb-6">
             {donationData.donationType === 'pohon' 
-              ? `🌳 ${Math.floor(donationData.amount / 25000)} pohon akan segera ditanam`
+              ? ` ${Math.floor(donationData.amount / 25000)} pohon akan segera ditanam`
               : 'Donasi Anda akan digunakan untuk program penghijauan'}
           </p>
           <div className="flex flex-col space-y-3">
@@ -142,7 +142,7 @@ const PaymentConfirmationPage = () => {
                   <div className="bg-cream rounded-lg p-4">
                     <div className="flex items-center space-x-3">
                       <div className="bg-accent-400 rounded-lg p-3">
-                        <span className="text-2xl">💳</span>
+                        <span className="text-2xl"></span>
                       </div>
                       <div>
                         <p className="font-bold text-charcoal">{donationData.paymentMethod}</p>
